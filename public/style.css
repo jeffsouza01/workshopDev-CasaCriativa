@@ -14,7 +14,7 @@ body.hideScroll {
 
 
 a {
-    color: #ff5e84;
+    color: #be0c36;
     font-weight: bold;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@ p, .description {
 
 .button {
     color: white;
-    background: #ff5e84;
+    background: #AE0C33;
     width: 150px;
     height: 40px;
 
@@ -81,7 +81,7 @@ main {
 }
 
 button {
-    color: #ff5e84;
+    color: #AE0C33;
     border:  none;
     font-weight: bold;
     background: none;
@@ -112,6 +112,11 @@ footer {
 
 footer a {
     opacity: 0.7;
+    color: #00cc00;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
 
 .ideia {
@@ -149,9 +154,9 @@ footer a {
 /* Modal */
 
 body #modal {
-    background: #ff5e84;
+    background: #AE0C33;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -167,7 +172,7 @@ body #modal {
 }
 
 #modal .content {
-    margin-top: 10%;
+    margin-top: 5%;
     color: white;
 }
 
@@ -180,7 +185,7 @@ body #modal {
     width: 80%;
     max-width: 800px;
 
-    margin: 0 auto 15%;
+    margin: 0 auto 10%;
     
     display: grid;
 
@@ -291,15 +296,13 @@ form button:hover {
     text-decoration: none;
 }
 
-#page-ideias nav li a .button{
-    color: #252828;
+#page-ideias nav li a .button {
+    color: white;
 }
 
 #page-ideias nav li:last-child {
     margin: 0;
-
 }
-
 
 
 section#title {
@@ -331,9 +334,3 @@ section#ideia,
 footer {
     margin-top: 64px;
 }
-
-
-
-
-
-

@@ -1,0 +1,22 @@
+
+// inicializar o server para confiugrar o package.json
+	npm init -y
+
+// Inicia o projeto
+npm start
+
+
+// Instalação do  Express
+	npm i express
+
+//  Instalação para monitorar qualquer alteração do arquivo
+	npm i nodemon
+
+// Permite que use variaveis no HTML
+	npm i nunjucks
+Nunjucks costuma gerar muito cache
+
+
+// Utilizado SQLite
+	npm install sqlite3
+	

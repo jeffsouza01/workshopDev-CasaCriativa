@@ -9,7 +9,11 @@
             <div class="description">
                 {{ ideas.description }}
             </div>
-            <a href="{{ ideas.link }}" target="_blanck">Ir para a ideia</a>
+
+            <section class='button-ideias'>
+                <a href="{{ ideas.link }}" target="_blanck" >Ir para a ideia</a>
+                <button class="button">Excluir</button>
+            </section>
         </div>
     </div>
 {% endfor %}

@@ -281,6 +281,14 @@ form button:hover {
     justify-content: space-between;
 }
 
+#page-ideias .button-ideias {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
 #page-ideias nav {
     display: flex;
     align-items: center;
@@ -296,7 +304,7 @@ form button:hover {
     text-decoration: none;
 }
 
-#page-ideias nav li a .button {
+#page-ideias header nav li a.button {
     color: white;
 }
 
